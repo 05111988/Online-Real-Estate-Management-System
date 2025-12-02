@@ -1,41 +1,87 @@
 📌 Project Overview
-The Online Real Estate Management System is a Java-based GUI application designed to streamline property listing, renting, and management processes. It provides a structured interface for property owners, customers, and administrators to interact efficiently. The project implements essential Java concepts such as OOP, collections, multithreading, and JDBC-based database connectivity.
+
+The Online Real Estate Management System is a Java-based GUI application designed to streamline property listing, renting, and management. It offers a clean interface for property owners, customers, and administrators to interact efficiently.
+The project demonstrates key Java concepts such as OOP, Collections, Multithreading, and JDBC-based database connectivity.
+
 🎯 Features
+
 Add, update, delete, and view property listings
-User authentication and role-based access
-Search and filter properties using various criteria
-GUI-based interactions for ease of use
+
+User authentication with role-based access
+
+Search and filter properties using multiple criteria
+
+GUI-based interactions for improved usability
+
 Smooth concurrent tasks using multithreading
-Real-time database operations through JDBC
-Proper error-handling and input validation
-📚 Marking Rubric Implementation 1️⃣ OOP Implementation
-This project uses complete Object-Oriented Programming principles:
-Inheritance: Common classes like User, Property, and Admin follow parent–child relationships.
-Polymorphism: Overridden methods for displaying property details and user actions.
-Interfaces: Interfaces for database operations and login modules.
-Exception Handling: Custom exceptions for invalid input, connection failures, and empty fields.
+
+Real-time database operations via JDBC
+
+Proper error handling and input validation mechanisms
+
+📚 Marking Rubric Implementation
+1️⃣ OOP Implementation
+
+The project fully applies Object-Oriented Programming concepts:
+
+Inheritance: Classes like User, Admin, and Property follow hierarchical relationships.
+
+Polymorphism: Method overriding for displaying property/user details and actions.
+
+Interfaces: Implemented for database operations and authentication modules.
+
+Exception Handling: Custom exceptions for invalid inputs, connection errors, and empty fields.
+
 2️⃣ Collections & Generics
-Uses ArrayList, HashMap<String, User>, and generic classes for storing property and user data.
-Ensures type safety and fast retrieval operations.
+
+Uses ArrayList, HashMap<String, User>, and generic classes to store property and user data.
+
+Ensures type safety, efficient retrieval, and structured data organization.
+
 3️⃣ Multithreading & Synchronization
-Implements background threads for loading data, refreshing GUI tables, and handling I/O tasks.
-Synchronization ensures thread-safe updates when multiple operations occur simultaneously.
+
+Background threads handle data loading, GUI table refreshing, and I/O tasks.
+
+Synchronization ensures safe updates when multiple operations occur simultaneously.
+
 4️⃣ Classes for Database Operations
-Dedicated DAO (Data Access Object) classes for:
+
+Dedicated DAO (Data Access Object) classes manage:
+
 User management
+
 Property CRUD operations
-Booking/Visit requests
-Ensures modular, clean, readable database interaction code.
+
+Booking / visit requests
+
+This ensures modular, readable, and maintainable database interaction code.
+
 5️⃣ Database Connectivity (JDBC)
-The project uses JDBC to connect Java GUI with MySQL/Oracle database.
-Includes driver setup, connection handling, and secure query execution.
-6️⃣ Implement JDBC for Database Connectivity
+
+The system uses JDBC to connect the Java GUI with MySQL/Oracle database:
+
+Driver loading and connection management
+
+Secure query execution
+
+Error-free database communication
+
+6️⃣ JDBC Implementation Details
+
 PreparedStatements used to prevent SQL injection
-Transaction handling for update/insert operations
-All modules (login, property, user) integrated with persistent database storage
+
+Transaction handling for insert/update operations
+
+All modules (login, property, user) connected with a persistent database
+
 🛠️ Tech Stack
+
 Java
-Swing / AWT GUI
-MySQL / Oracle DB
+
+Swing / AWT
+
+MySQL / Oracle Database
+
 JDBC
-Collections Framework & OOP
+
+Collections Framework & OOP Concepts
